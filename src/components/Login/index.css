@@ -1,0 +1,138 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 100vh;
+  padding: 0px;
+}
+.login-text {
+  text-align: left;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  margin: 10px;
+}
+.login-sm-image {
+  width: 387px;
+  height: 487px;
+  align-self: flex-end;
+}
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-label {
+  color: #475569;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.form-input {
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: 0px;
+  width: 312px;
+  border-style: none;
+  border-width: 0px;
+  outline: none;
+  background-color: #e2e8f0;
+}
+.login-button {
+  width: 312px;
+  height: 40px;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #f7931e;
+  border: 0px;
+  margin-top: 5px;
+}
+
+.error-text {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ef4444;
+}
+
+.login-bg-image {
+  display: none;
+}
+
+.logo {
+  display: none;
+}
+
+.login-heading {
+  display: none;
+}
+
+.login-details {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .app-container {
+    flex-direction: row;
+  }
+  .login-sm-image {
+    display: none;
+  }
+  .login-image-container {
+    height: 100vh;
+    width: 50%;
+    order: 2;
+  }
+  .login-bg-image {
+    display: inline;
+  }
+  .login-form-container {
+    width: 50%;
+  }
+  .form-container {
+    width: 456px;
+    height: 523px;
+    top: 250px;
+    left: 165px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 40px 0px #07070714;
+    align-items: center;
+  }
+  .logo {
+    display: inline-block;
+    width: 53px;
+    height: 43px;
+    top: 298px;
+    left: 366px;
+    padding: 2px;
+  }
+  .login-heading {
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #f7931e;
+    display: inline;
+  }
+}
